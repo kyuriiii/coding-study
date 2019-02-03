@@ -25,6 +25,9 @@ namespace KyuriProject
     public partial class Form1 : Form
     {
         BackgroudManager backgroundmanage;
+        Form2 menuForm;
+        //Kyuri myform;
+
 
         public Form1()
         {
@@ -53,6 +56,10 @@ namespace KyuriProject
             this.ControlBox = false;
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
+
+
+            menuForm = new Form2(this); //form2 준비
+           // myform = new Kyuri();//사용금지
         }
 
 
@@ -76,6 +83,8 @@ namespace KyuriProject
 
         private void button1_Click(object sender, EventArgs e)
         {
+            menuForm.ShowDialog();
+            //myform.ShowDialog();//사용금지
             MessageBox.Show("메시지");
         }
 
@@ -100,7 +109,8 @@ namespace KyuriProject
         }
         private void button7_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("건강검진");
+            menuForm.ShowDialog();
+           
         }
         private void button8_Click(object sender, EventArgs e)
         {
@@ -135,7 +145,7 @@ namespace KyuriProject
             //    if (this.BackgroundImage == RotateImage(Properties.Resources.P03_00))
             //        this.BackgroundImage = RotateImage(Properties.Resources.P01_00); //경고창
         }
-
+        
     }
 
     

@@ -18,3 +18,4 @@ D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csproj.GenerateResourc
 D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csproj.CoreCompileInputs.cache
 D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.exe
 D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.pdb
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Form2.resources
