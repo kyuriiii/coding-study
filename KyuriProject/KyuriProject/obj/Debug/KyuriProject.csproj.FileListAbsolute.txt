@@ -8,3 +8,13 @@ C:\Users\pc\source\repos\KyuriProject\KyuriProject\bin\Debug\KyuriProject.pdb
 C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Debug\KyuriProject.exe
 C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Debug\KyuriProject.pdb
 C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Form1.resources
+D:\study\KyuriProject\KyuriProject\bin\Debug\KyuriProject.exe.config
+D:\study\KyuriProject\KyuriProject\bin\Debug\KyuriProject.exe
+D:\study\KyuriProject\KyuriProject\bin\Debug\KyuriProject.pdb
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csprojAssemblyReference.cache
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Form1.resources
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Properties.Resources.resources
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csproj.GenerateResource.cache
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csproj.CoreCompileInputs.cache
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.exe
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.pdb
