@@ -151,33 +151,6 @@
   <data name="information" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="message" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\message.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -225,5 +198,38 @@
   </data>
   <data name="_return" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\return.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P01_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\짱구.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P02_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\짱아.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_call" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_call.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_gallery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_gallery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_game.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_health" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_health.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_message" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_message.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_setting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_camera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

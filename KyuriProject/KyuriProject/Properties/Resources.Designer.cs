@@ -183,9 +183,9 @@ namespace KyuriProject.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_01 {
+        internal static System.Drawing.Bitmap menu_back {
             get {
-                object obj = ResourceManager.GetObject("menu_01", resourceCulture);
+                object obj = ResourceManager.GetObject("menu_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace KyuriProject.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_02 {
+        internal static System.Drawing.Bitmap menu_call {
             get {
-                object obj = ResourceManager.GetObject("menu_02", resourceCulture);
+                object obj = ResourceManager.GetObject("menu_call", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace KyuriProject.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_03 {
+        internal static System.Drawing.Bitmap menu_camera {
             get {
-                object obj = ResourceManager.GetObject("menu_03", resourceCulture);
+                object obj = ResourceManager.GetObject("menu_camera", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace KyuriProject.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_04 {
+        internal static System.Drawing.Bitmap menu_gallery {
             get {
-                object obj = ResourceManager.GetObject("menu_04", resourceCulture);
+                object obj = ResourceManager.GetObject("menu_gallery", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace KyuriProject.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_05 {
+        internal static System.Drawing.Bitmap menu_game {
             get {
-                object obj = ResourceManager.GetObject("menu_05", resourceCulture);
+                object obj = ResourceManager.GetObject("menu_game", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace KyuriProject.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_06 {
+        internal static System.Drawing.Bitmap menu_health {
             get {
-                object obj = ResourceManager.GetObject("menu_06", resourceCulture);
+                object obj = ResourceManager.GetObject("menu_health", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace KyuriProject.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_07 {
+        internal static System.Drawing.Bitmap menu_home {
             get {
-                object obj = ResourceManager.GetObject("menu_07", resourceCulture);
+                object obj = ResourceManager.GetObject("menu_home", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace KyuriProject.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_08 {
+        internal static System.Drawing.Bitmap menu_message {
             get {
-                object obj = ResourceManager.GetObject("menu_08", resourceCulture);
+                object obj = ResourceManager.GetObject("menu_message", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace KyuriProject.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_09 {
+        internal static System.Drawing.Bitmap menu_setting {
             get {
-                object obj = ResourceManager.GetObject("menu_09", resourceCulture);
+                object obj = ResourceManager.GetObject("menu_setting", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -366,6 +366,26 @@ namespace KyuriProject.Properties {
         internal static System.Drawing.Bitmap mod_06 {
             get {
                 object obj = ResourceManager.GetObject("mod_06", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap P01_00 {
+            get {
+                object obj = ResourceManager.GetObject("P01_00", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap P02_00 {
+            get {
+                object obj = ResourceManager.GetObject("P02_00", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
