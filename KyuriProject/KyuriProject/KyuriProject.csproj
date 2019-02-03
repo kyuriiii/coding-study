@@ -80,6 +80,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -105,6 +106,114 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mod_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mod_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mod_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mod_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mod_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pill2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thermometer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voicemessage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_mark2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dictionary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency_call.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_examination.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\housebackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hygrometer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\messagewrite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\messagewrite_gallery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\messagewrite_voicemessage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mod_01.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

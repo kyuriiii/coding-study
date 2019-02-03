@@ -19,7 +19,11 @@ namespace KyuriProject
         {
            
             InitializeComponent();
-            
+
+
+            this.button1.Text = "";
+            this.button6.Text = "";
+
             this.BackColor = Color.FromArgb(255, 232, 232);
             this.Text = string.Empty; 
             this.MaximizeBox = false;
@@ -29,6 +33,13 @@ namespace KyuriProject
             this.WindowState = FormWindowState.Maximized;
         }
 
-       
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+            MessageBox.Show("화면이 종료됩니다.");
+            Application.Exit();
+        }
+
+
     }
 }
