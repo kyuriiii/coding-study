@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 using System.Collections;
 
@@ -16,11 +17,9 @@ namespace KyuriProject
 {
     public struct BackgroudManager
     {
-        internal string name;
-        internal string description;
+       
         internal string displyState;
-        internal int Number;
-        internal Bitmap image;
+       
     }
 
     public partial class Form1 : Form
@@ -31,6 +30,8 @@ namespace KyuriProject
         {
             this.BackgroundImage = RotateImage(Properties.Resources.P01_00);
             backgroundmanage.displyState = "P01";
+            /*this.BackgroundImageLayout = ImageLayout.Stretch;*/
+
 
             InitializeComponent();
 
@@ -38,7 +39,7 @@ namespace KyuriProject
             this.button2.Text = "";
             this.button3.Text = "";
             this.button4.Text = "";
-            this.button5.Text = "";
+            
             this.button6.Text = "";
             this.button7.Text = "";
             this.button8.Text = "";
@@ -91,10 +92,7 @@ namespace KyuriProject
         {
             MessageBox.Show("실내정보");
         }
-        private void button5_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("긴급연락");
-        }
+        
         private void button6_Click(object sender, EventArgs e)
         {
             MessageBox.Show("화면이 종료됩니다.");
@@ -110,7 +108,7 @@ namespace KyuriProject
         }
         private void button9_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("None");
+            MessageBox.Show("긴급연락");
         }
         private void button10_Click(object sender, EventArgs e)
         {
@@ -139,4 +137,6 @@ namespace KyuriProject
         }
 
     }
+
+    
 }

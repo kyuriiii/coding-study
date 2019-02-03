@@ -248,6 +248,9 @@
   <ItemGroup>
     <None Include="Resources\menu_camera.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_emergency.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>pscp -r -pw raspberry "$(ProjectDir)$(OutDir)\*" pi@192.168.0.10:</PostBuildEvent>
