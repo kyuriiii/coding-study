@@ -1,0 +1,9 @@
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\bin\Release\KyuriProject.exe.config
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\bin\Release\KyuriProject.exe
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\bin\Release\KyuriProject.pdb
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Release\KyuriProject.Form1.resources
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Release\KyuriProject.Properties.Resources.resources
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Release\KyuriProject.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Release\KyuriProject.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Release\KyuriProject.exe
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Release\KyuriProject.pdb

@@ -1,0 +1,10 @@
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Properties.Resources.resources
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\bin\Debug\KyuriProject.exe.config
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\bin\Debug\KyuriProject.exe
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\bin\Debug\KyuriProject.pdb
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Debug\KyuriProject.exe
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Debug\KyuriProject.pdb
+C:\Users\pc\source\repos\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Form1.resources
