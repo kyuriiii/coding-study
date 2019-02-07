@@ -25,7 +25,8 @@ namespace KyuriProject
     public partial class Form1 : Form
     {
         BackgroudManager backgroundmanage;
-        Form2 menuForm;
+        Form2 healthForm;
+        Form3 settingForm;
         //Kyuri myform;
 
 
@@ -58,7 +59,8 @@ namespace KyuriProject
             this.WindowState = FormWindowState.Maximized;
 
 
-            menuForm = new Form2(this); //form2 준비
+            healthForm = new Form2(this); //form2 준비
+            settingForm = new Form3(this);
            // myform = new Kyuri();//사용금지
         }
 
@@ -83,7 +85,7 @@ namespace KyuriProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            menuForm.ShowDialog();
+          
             //myform.ShowDialog();//사용금지
             MessageBox.Show("메시지");
         }
@@ -104,13 +106,12 @@ namespace KyuriProject
         
         private void button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("화면이 종료됩니다.");
+            
             Application.Exit();
         }
         private void button7_Click(object sender, EventArgs e)
         {
-            menuForm.ShowDialog();
-           
+            healthForm.ShowDialog();
         }
         private void button8_Click(object sender, EventArgs e)
         {
@@ -122,7 +123,7 @@ namespace KyuriProject
         }
         private void button10_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("설정");
+            settingForm.ShowDialog();
         }
         private void button11_Click(object sender, EventArgs e)
         {
@@ -145,7 +146,11 @@ namespace KyuriProject
             //    if (this.BackgroundImage == RotateImage(Properties.Resources.P03_00))
             //        this.BackgroundImage = RotateImage(Properties.Resources.P01_00); //경고창
         }
-        
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Clock.Text = DateTime.Now.ToString();
+        }
     }
 
     

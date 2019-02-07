@@ -250,4 +250,43 @@
   <data name="health_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\health_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="health_01_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_01_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="health_02_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_02_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="health_03_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_03_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="health_04_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_04_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_back_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_back_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_camera_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_camera_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_emergency_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_emergency_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_gallery_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_gallery_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_game_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_game_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_health_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_health_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_home_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_home_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_message_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_message_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_setting_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_setting_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

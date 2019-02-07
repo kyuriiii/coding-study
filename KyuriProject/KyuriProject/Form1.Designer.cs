@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.Clock = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -40,11 +43,27 @@
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // Clock
+            // 
+            this.Clock.AutoSize = true;
+            this.Clock.Font = new System.Drawing.Font("한컴 백제 B", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Clock.Location = new System.Drawing.Point(240, 650);
+            this.Clock.Name = "Clock";
+            this.Clock.Size = new System.Drawing.Size(0, 32);
+            this.Clock.TabIndex = 11;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // button11
             // 
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Image = global::KyuriProject.Properties.Resources.menu_back;
-            this.button11.Location = new System.Drawing.Point(384, 439);
+            this.button11.Image = global::KyuriProject.Properties.Resources.menu_back_01;
+            this.button11.Location = new System.Drawing.Point(378, 439);
+            this.button11.Margin = new System.Windows.Forms.Padding(0);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(160, 120);
             this.button11.TabIndex = 10;
@@ -55,8 +74,9 @@
             // button10
             // 
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button10.Image = global::KyuriProject.Properties.Resources.menu_setting;
-            this.button10.Location = new System.Drawing.Point(204, 439);
+            this.button10.Image = global::KyuriProject.Properties.Resources.menu_setting_01;
+            this.button10.Location = new System.Drawing.Point(198, 439);
+            this.button10.Margin = new System.Windows.Forms.Padding(0);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(160, 120);
             this.button10.TabIndex = 9;
@@ -67,8 +87,9 @@
             // button9
             // 
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Image = global::KyuriProject.Properties.Resources.menu_emergency;
-            this.button9.Location = new System.Drawing.Point(24, 439);
+            this.button9.Image = global::KyuriProject.Properties.Resources.menu_emergency_01;
+            this.button9.Location = new System.Drawing.Point(18, 439);
+            this.button9.Margin = new System.Windows.Forms.Padding(0);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(160, 120);
             this.button9.TabIndex = 8;
@@ -79,8 +100,9 @@
             // button8
             // 
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Image = global::KyuriProject.Properties.Resources.menu_game;
-            this.button8.Location = new System.Drawing.Point(384, 295);
+            this.button8.Image = global::KyuriProject.Properties.Resources.menu_game_01;
+            this.button8.Location = new System.Drawing.Point(378, 295);
+            this.button8.Margin = new System.Windows.Forms.Padding(0);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(160, 120);
             this.button8.TabIndex = 7;
@@ -91,8 +113,9 @@
             // button7
             // 
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Image = global::KyuriProject.Properties.Resources.menu_health;
-            this.button7.Location = new System.Drawing.Point(204, 295);
+            this.button7.Image = global::KyuriProject.Properties.Resources.menu_health_01;
+            this.button7.Location = new System.Drawing.Point(198, 295);
+            this.button7.Margin = new System.Windows.Forms.Padding(0);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(160, 120);
             this.button7.TabIndex = 6;
@@ -102,11 +125,14 @@
             // 
             // button6
             // 
+            this.button6.AutoSize = true;
+            this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Image = global::KyuriProject.Properties.Resources.esc;
-            this.button6.Location = new System.Drawing.Point(493, 12);
+            this.button6.Location = new System.Drawing.Point(487, 12);
+            this.button6.Margin = new System.Windows.Forms.Padding(0);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(51, 51);
+            this.button6.Size = new System.Drawing.Size(57, 57);
             this.button6.TabIndex = 5;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
@@ -115,8 +141,9 @@
             // button4
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Image = global::KyuriProject.Properties.Resources.menu_home;
-            this.button4.Location = new System.Drawing.Point(24, 295);
+            this.button4.Image = global::KyuriProject.Properties.Resources.menu_home_01;
+            this.button4.Location = new System.Drawing.Point(18, 295);
+            this.button4.Margin = new System.Windows.Forms.Padding(0);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(160, 120);
             this.button4.TabIndex = 3;
@@ -126,9 +153,12 @@
             // 
             // button3
             // 
+            this.button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Image = global::KyuriProject.Properties.Resources.menu_gallery;
-            this.button3.Location = new System.Drawing.Point(384, 153);
+            this.button3.Image = global::KyuriProject.Properties.Resources.menu_gallery_01;
+            this.button3.Location = new System.Drawing.Point(378, 153);
+            this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(160, 120);
             this.button3.TabIndex = 2;
@@ -139,8 +169,9 @@
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Image = global::KyuriProject.Properties.Resources.menu_camera;
-            this.button2.Location = new System.Drawing.Point(204, 153);
+            this.button2.Image = global::KyuriProject.Properties.Resources.menu_camera_01;
+            this.button2.Location = new System.Drawing.Point(198, 153);
+            this.button2.Margin = new System.Windows.Forms.Padding(0);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 120);
             this.button2.TabIndex = 1;
@@ -151,8 +182,9 @@
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Image = global::KyuriProject.Properties.Resources.menu_message;
-            this.button1.Location = new System.Drawing.Point(24, 153);
+            this.button1.Image = global::KyuriProject.Properties.Resources.menu_message_01;
+            this.button1.Location = new System.Drawing.Point(18, 153);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 120);
             this.button1.TabIndex = 0;
@@ -164,7 +196,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(556, 630);
+            this.ClientSize = new System.Drawing.Size(554, 701);
+            this.Controls.Add(this.Clock);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
@@ -179,6 +212,7 @@
             this.Text = "Form1";
             this.Click += new System.EventHandler(this.Form1_Click);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -194,6 +228,8 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Label Clock;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

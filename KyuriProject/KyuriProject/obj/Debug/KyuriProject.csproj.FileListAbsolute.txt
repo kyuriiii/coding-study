@@ -19,3 +19,4 @@ D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csproj.CoreCompileInpu
 D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.exe
 D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.pdb
 D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Form2.resources
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Form3.resources

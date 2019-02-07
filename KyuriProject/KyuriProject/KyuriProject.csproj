@@ -73,6 +73,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -260,8 +269,47 @@
   <ItemGroup>
     <None Include="Resources\return.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_camera_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_game_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_emergency_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_health_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_home_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_gallery_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_message_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_setting_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_back_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_01_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_02_02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_03_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_04_04.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>pscp -r -pw raspberry "$(ProjectDir)$(OutDir)\*" pi@192.168.0.10:</PostBuildEvent>
+    <PostBuildEvent>pscp -r -pw raspberry "$(ProjectDir)$(OutDir)\*" pi@192.168.0.7:</PostBuildEvent>
   </PropertyGroup>
 </Project>
