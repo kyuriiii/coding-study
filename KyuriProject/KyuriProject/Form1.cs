@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using Newtonsoft.Json;
+using Quobject.SocketIoClientDotNet.Client;
 
 using System.Collections;
 
@@ -15,11 +17,10 @@ using System.Collections;
 namespace KyuriProject
 
 {
+    public delegate void UpdateTextBoxMethod(string text);
     public struct BackgroudManager
     {
-       
         internal string displyState;
-       
     }
 
     public partial class Form1 : Form
@@ -29,6 +30,7 @@ namespace KyuriProject
         Form3 settingForm;
         //Kyuri myform;
 
+        public Socket sock = null;
 
         public Form1()
         {
@@ -43,7 +45,7 @@ namespace KyuriProject
             this.button2.Text = "";
             this.button3.Text = "";
             this.button4.Text = "";
-            
+
             this.button6.Text = "";
             this.button7.Text = "";
             this.button8.Text = "";
@@ -61,7 +63,7 @@ namespace KyuriProject
 
             healthForm = new Form2(this); //form2 준비
             settingForm = new Form3(this);
-           // myform = new Kyuri();//사용금지
+            // myform = new Kyuri();//사용금지
         }
 
 
@@ -85,7 +87,7 @@ namespace KyuriProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-          
+
             //myform.ShowDialog();//사용금지
             MessageBox.Show("메시지");
         }
@@ -103,10 +105,10 @@ namespace KyuriProject
         {
             MessageBox.Show("실내정보");
         }
-        
+
         private void button6_Click(object sender, EventArgs e)
         {
-            
+
             Application.Exit();
         }
         private void button7_Click(object sender, EventArgs e)
@@ -151,7 +153,80 @@ namespace KyuriProject
         {
             Clock.Text = DateTime.Now.ToString();
         }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            socketIoManager();
+        }
+
+        public void socketIoManager()
+        {
+            string url = "http://" + txtURL.Text;
+            sock = IO.Socket(url);
+
+            UpdateStatus("Connecting...");
+            sock.On(Socket.EVENT_CONNECT, () =>
+            {
+                Console.WriteLine("connected");
+                UpdateStatus("connected");
+            });
+
+            sock.On(Socket.EVENT_CONNECT_ERROR, () =>
+            {
+                UpdateStatus("not connection");
+            });
+
+            sock.On(Socket.EVENT_DISCONNECT, () =>
+            {
+                UpdateStatus("disconnection");
+            }
+            );
+
+            sock.On("sensor_01", (data) =>
+            {
+                var temperature = new { temperature = "", humidity = "" };
+                var tempValue = JsonConvert.DeserializeAnonymousType((string)data, temperature);
+                UpdateSensor((string)tempValue.temperature + ", " + (string)tempValue.humidity);
+            });
+        }
+
+        private void UpdateStatus(string text)
+        {
+            if (this.textBox1.InvokeRequired)
+            {
+                UpdateTextBoxMethod del = new UpdateTextBoxMethod(UpdateStatus);
+                this.Invoke(del, new object[] { text });
+            }
+            else
+            {
+                this.textBox1.Text = text;
+            }
+        }
+
+        private void UpdateSensor(string text)
+        {
+            if (this.textBox2.InvokeRequired)
+            {
+                UpdateTextBoxMethod del = new UpdateTextBoxMethod(UpdateStatus);
+                this.Invoke(del, new object[] { text });
+            }
+            else
+            {
+                this.textBox2.Text = text;
+            }
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            sock.Disconnect();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            sock.Emit("test", "send-test'" + txtMsg.Text);
+        }
+
+        
     }
 
-    
+
 }

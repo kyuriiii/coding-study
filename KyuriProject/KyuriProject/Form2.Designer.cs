@@ -194,7 +194,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Text = " z";
+            this.Text = "6wq3";
             this.ResumeLayout(false);
             this.PerformLayout();
 

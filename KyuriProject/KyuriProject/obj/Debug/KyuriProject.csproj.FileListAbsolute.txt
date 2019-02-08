@@ -20,3 +20,9 @@ D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.exe
 D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.pdb
 D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Form2.resources
 D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Form3.resources
+D:\study\KyuriProject\KyuriProject\bin\Debug\EngineIoClientDotNet.dll
+D:\study\KyuriProject\KyuriProject\bin\Debug\Newtonsoft.Json.dll
+D:\study\KyuriProject\KyuriProject\bin\Debug\SocketIoClientDotNet.dll
+D:\study\KyuriProject\KyuriProject\bin\Debug\WebSocket4Net.dll
+D:\study\KyuriProject\KyuriProject\bin\Debug\Newtonsoft.Json.xml
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csproj.CopyComplete
