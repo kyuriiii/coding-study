@@ -28,6 +28,7 @@ namespace KyuriProject
         BackgroudManager backgroundmanage;
         Form2 healthForm;
         Form3 settingForm;
+        
         //Kyuri myform;
 
         public Socket sock = null;
@@ -63,6 +64,7 @@ namespace KyuriProject
 
             healthForm = new Form2(this); //form2 준비
             settingForm = new Form3(this);
+            
             // myform = new Kyuri();//사용금지
         }
 

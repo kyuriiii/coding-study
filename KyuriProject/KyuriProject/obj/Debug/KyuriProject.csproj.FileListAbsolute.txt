@@ -26,3 +26,4 @@ D:\study\KyuriProject\KyuriProject\bin\Debug\SocketIoClientDotNet.dll
 D:\study\KyuriProject\KyuriProject\bin\Debug\WebSocket4Net.dll
 D:\study\KyuriProject\KyuriProject\bin\Debug\Newtonsoft.Json.xml
 D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.csproj.CopyComplete
+D:\study\KyuriProject\KyuriProject\obj\Debug\KyuriProject.Form4.resources

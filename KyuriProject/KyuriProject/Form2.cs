@@ -13,11 +13,12 @@ namespace KyuriProject
     public partial class Form2 : Form
     {
 
+        Form4 selfForm;
         public struct BackgroudManager
         {
 
             //internal string displyState;
-
+           
         }
 
         Form1 mainform; 
@@ -35,6 +36,8 @@ namespace KyuriProject
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
             this.StartPosition = FormStartPosition.Manual;
+
+            selfForm = new Form4(this);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,7 +48,7 @@ namespace KyuriProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("자가진단");
+            selfForm.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)

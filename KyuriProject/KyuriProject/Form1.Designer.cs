@@ -43,7 +43,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.txtURL = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button12 = new System.Windows.Forms.Button();
@@ -202,33 +201,27 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(94, 30);
+            this.button5.Location = new System.Drawing.Point(105, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(146, 20);
+            this.button5.Size = new System.Drawing.Size(73, 20);
             this.button5.TabIndex = 12;
-            this.button5.Text = "connect";
+            this.button5.Text = "연결";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // txtURL
             // 
-            this.txtURL.Location = new System.Drawing.Point(92, 3);
+            this.txtURL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtURL.ForeColor = System.Drawing.Color.Black;
+            this.txtURL.Location = new System.Drawing.Point(2, 2);
             this.txtURL.Name = "txtURL";
-            this.txtURL.Size = new System.Drawing.Size(148, 21);
+            this.txtURL.Size = new System.Drawing.Size(97, 14);
             this.txtURL.TabIndex = 13;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 12);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "접속 IP";
+            this.txtURL.Text = "192.168.0.4:3000";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(92, 60);
+            this.textBox1.Location = new System.Drawing.Point(184, 3);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(147, 21);
             this.textBox1.TabIndex = 15;
@@ -239,7 +232,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(146, 21);
             this.textBox2.TabIndex = 16;
-            
             // 
             // button12
             // 
@@ -278,7 +270,6 @@
             this.Controls.Add(this.button12);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtURL);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.Clock);
@@ -316,7 +307,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox txtURL;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button12;

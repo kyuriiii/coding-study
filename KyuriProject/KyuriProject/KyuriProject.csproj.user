@@ -3,7 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Program</StartAction>
     <StartProgram>C:\Windows\System32\cmd.exe</StartProgram>
-    <StartArguments>/C plink -pw raspberry pi%40192.168.0.18 "export DISPLAY=:0.0 &amp;&amp; mono KyuriProject.exe"</StartArguments>
+    <StartArguments>/C plink -pw raspberry pi%40192.168.0.100 "export DISPLAY=:0.0 &amp;&amp; mono KyuriProject.exe"</StartArguments>
   </PropertyGroup>
   <PropertyGroup>
     <PublishUrlHistory>publish\</PublishUrlHistory>
